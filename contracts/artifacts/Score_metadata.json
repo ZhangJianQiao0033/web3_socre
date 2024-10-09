@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "student",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					}
+				],
+				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "studentScores",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "teacher",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Score.sol": "Score"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IScore.sol": {
+			"keccak256": "0x68a8941e77be186710df09b22d048e763ae7155cbf2900998728bb275c40bd2d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31173c4d173ca5e8dfe71df46b2c80593ecce9a9aebb01fd781a9dbc4fc21183",
+				"dweb:/ipfs/QmRc9KnFDT9dJ6WEs5xyg3432RbYVGCbdtx6ohiXRgPowo"
+			]
+		},
+		"contracts/Score.sol": {
+			"keccak256": "0x60bd3687083261195b1b3459bbe9ad781fc5e89fde66e9dd9d268c40a012c654",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b03b8879189378894fe17a97ecb843a15d594c6f672d85ef5424e60939f67988",
+				"dweb:/ipfs/QmQxehtBoZYBgaGvxLmeiCbcLGyVFwqeum6NMypwKg2NtH"
+			]
+		}
+	},
+	"version": 1
+}

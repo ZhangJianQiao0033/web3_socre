@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "student",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					}
+				],
+				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IScore.sol": "IScore"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IScore.sol": {
+			"keccak256": "0x68a8941e77be186710df09b22d048e763ae7155cbf2900998728bb275c40bd2d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31173c4d173ca5e8dfe71df46b2c80593ecce9a9aebb01fd781a9dbc4fc21183",
+				"dweb:/ipfs/QmRc9KnFDT9dJ6WEs5xyg3432RbYVGCbdtx6ohiXRgPowo"
+			]
+		}
+	},
+	"version": 1
+}
